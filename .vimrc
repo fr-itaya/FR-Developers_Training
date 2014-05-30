@@ -32,7 +32,11 @@ inoremap <Down> <Nop>
 inoremap <Left> <Nop>
 inoremap <Right> <Nop>
 
-"powerlineインストール
-NeoBundle 'alpaca-tc/alpaca_powertabline'
-NeoBundle 'https://github.com/Lokaltog/powerline.git'
+"フロントエンドコーディング系のプラグイン導入"
+NeoBundle 'mattn/emmet-vim'
+NeoBundle 'chouchou2/surround.vim'
+NeoBundle 'il2u/vim-css3-syntax'
+NeoBundle 'chouchou2/html5.vim'
+NeoBundle 'taichouchou2/vim-javascript'
+NeoBundle 'kchmck/vim-coffee-script'
 
